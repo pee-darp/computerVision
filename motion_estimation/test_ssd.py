@@ -5,6 +5,6 @@ import sys
 sys.path.insert(1, "/home/spradeep/pradeep/computerVision/lib")
 from ssd import *
 
-a = 2 * np.ones([5,5])
-b = np.ones([3,3])
+a = 2 * np.random.rand(1080,1920)
+b = np.random.rand(10,10)
 print(sumsqdiff3(a,b))
